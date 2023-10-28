@@ -11,6 +11,8 @@ public class Program
         Console.WriteLine(new PrimeFactors(42, 99, 1234));
 
         // Example 3: Monty Hall Problem
-        MontyHall.Play(100);
+        MontyHall montyHall = new(new());
+        montyHall.Play(100);
+        Console.WriteLine(montyHall);
     }
 }
